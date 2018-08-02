@@ -105,3 +105,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Excel lock files
+.~lock.*
+
+# iPython notebooks
+.ipynb_checkpoints/

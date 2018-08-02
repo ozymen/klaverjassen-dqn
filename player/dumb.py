@@ -5,7 +5,10 @@ class Dumb:
         self.playerName = playername
         return None
 
-    def pick(self, cards, eligableCards):
+    def setRound(self, round):
+        self.round = round
+
+    def pick(self, cards, eligableCards, state):
         """Picks a random legal card"""
 
         return np.random.choice(eligableCards)
